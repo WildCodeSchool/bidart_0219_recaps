@@ -100,8 +100,9 @@ To reach your web site, open any web browser and open the url pattern below:
 
 
 
+Crew:* Amine, Sarah, Stéphane
 
-#Management Conflicts
+##Management Conflicts
 
 #How to resolve merge conflicts**
 3 merge tools :
