@@ -165,7 +165,8 @@ When using Git, "git mergetool" will start a 'merge helper
 
 *Only the repository owner can do the validation*
 
-  ![](https://chat.wildcodeschool.fr/file-upload/yZGkrZokLYNQurrWB/Capture%20d%E2%80%99%C3%A9cran%20de%202019-03-08%2011-23-15.png)
+https://chat.wildcodeschool.fr/file-upload/yZGkrZokLYNQurrWB/Capture%20d%E2%80%99%C3%A9cran%20de%202019-03-08%2011-23-15.png
+
 
 
 ** Conclusion **: Conflict management on a daily basis and throughout the project is **highly* recommended**.
