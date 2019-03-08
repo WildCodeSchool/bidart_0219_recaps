@@ -33,4 +33,31 @@ About our activity we tried few of them.
 To conclude, each one can prefer his workflow, but we don't recommend the second one. 
 We've got only problems with it, and no pros.
 		
+Weekly report - 03/03/2019
+
+Team: Vanessa Salvador, Nizar Slama, Florian Gardy
+Topic: GitHub pages
+What is GitHub pages
+
+GitHub Pages is a service, provided by GitHub, designed to host your personal, organization, or project pages directly from a GitHub repository.
+How to publish on GitHub Pages ?
+
+If you want to publish a website as a standard user or an organization, simply create a new repository on GitHub named username.github.io, where username is your username (or organization name) on GitHub.
+All the modifications done on the master branch are automatically published on internet.
+
+If you want to publish a project site:
+
+    create any repository
+    create/add a file “index.html”
+    modify the settings of the repository: Settings > GitHub Pages > Select the source branch (master)
+    Your site will be publish after your next commit on the master branch.
+
+How can I reach my website ?
+
+To reach your web site, open any web browser and open the url pattern below:
+User or organization : https://username.github.io
+Project : http://username.github.io/repository
+		
+
+
 > Written with [StackEdit](https://stackedit.io/).
