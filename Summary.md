@@ -91,4 +91,67 @@ To reach your web site, open any web browser and open the url pattern below:
 User or organization : https://username.github.io
 Project : http://username.github.io/repository
 
+
+
+***Crew:****
+Amine
+Sarah
+Stéphane
+
+**Management Conflicts: how to resolve merge conflicts**
+**3 merge tools :
+ 1. - Visual Studio
+ 2. - Meld: via Git
+ 3. - Github : Pull request**
+
+
+**1= VISUAL STUDIO**
+		-The conflicts begin when you make a git pull (we are on a dev branch)
+		-Visual Studio display red stickers = conflict indicators
+		-Display between the remote code and your local code:  
+		*An input mode with a color and an output mode with another color* 
+		-As long as the conflicts are not settled, no further action can be allow
+		-Choose the code that we want to keep and validate
+		-3 possible options = accept both changes / accept incoming changes / accept current changes
+		-After that, make a git push on the current branch (dev)
+
+*Warning!*  
+One piece of advice: start conflict management from the bottom of the code page to avoid validating all conflicts without being able to check them one by one.
+
+*VS Screenshots*
+(https://code.visualstudio.com/assets/docs/editor/versioncontrol/merge-conflict.png)
+![RÃ©sultat de recherche d'images pour "visual studio code merge tool"](https://code.visualstudio.com/assets/docs/editor/versioncontrol/overview.png)
+
+
+**2= MELD**
+When using Git, "git mergetool" will start a 'merge helper
+3 parts displayed:
+1- Local code
+2- Code commit
+3- Remote code
+- Allow to have a global visualization of the differences between local, remote and commit code.
+- Choose the code that you want to keep for the project (thanks to the arrow button)
+- Save the choice and it's done.
+
+*Meld Screenshot*
+![RÃ©sultat de recherche d'images pour "meld screenshots"](https://i.stack.imgur.com/QRzUR.png)
+
+**3= GITHUB**
+
+-Go on the repository on Github
+-Choose the branch which will receive the data
+-The branch where the data came from
+-Make a pull request
+-Add a comment if needed
+-Check the message: Indicator able to merge or not
+-And do the validation.
+
+*Only the repository owner can do the validation*
+
+  ![](https://chat.wildcodeschool.fr/file-upload/yZGkrZokLYNQurrWB/Capture%20d%E2%80%99%C3%A9cran%20de%202019-03-08%2011-23-15.png)
+
+
+** Conclusion **: Conflict management on a daily basis and throughout the project is **highly* recommended**.
+Thus you can save time and avoid being overwhelmed by too much conflict at the end of the project.
+
 > Written with [StackEdit](https://stackedit.io/).
