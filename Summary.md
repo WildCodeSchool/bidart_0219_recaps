@@ -100,18 +100,28 @@ To reach your web site, open any web browser and open the url pattern below:
 
 
 
-Crew:* Amine, Sarah, Stéphane
+**Crew:*** Amine, Sarah, Stéphane
 
-##Management Conflicts
 
-#How to resolve merge conflicts**
+# Management Conflicts
+
+**
+
+## How to resolve merge conflicts**
+
+**
+
 3 merge tools :
- 1. - Visual Studio
- 2. - Meld: via Git
- 3. - Github : Pull request**
+
+1. - Visual Studio
+
+2. - Meld: via Git
+
+3. - Github : Pull request***
 
 
-**1= VISUAL STUDIO**
+## **1= VISUAL STUDIO**
+
 		-The conflicts begin when you make a git pull (we are on a dev branch)
 		-Visual Studio display red stickers = conflict indicators
 		-Display between the remote code and your local code:  
@@ -129,7 +139,8 @@ One piece of advice: start conflict management from the bottom of the code page 
 ![RÃ©sultat de recherche d'images pour "visual studio code merge tool"](https://code.visualstudio.com/assets/docs/editor/versioncontrol/overview.png)
 
 
-**2= MELD**
+## **2= MELD**
+
 When using Git, "git mergetool" will start a 'merge helper
 3 parts displayed:
 1- Local code
@@ -142,7 +153,7 @@ When using Git, "git mergetool" will start a 'merge helper
 *Meld Screenshot*
 ![RÃ©sultat de recherche d'images pour "meld screenshots"](https://i.stack.imgur.com/QRzUR.png)
 
-**3= GITHUB**
+## **3= GITHUB**
 
 -Go on the repository on Github
 -Choose the branch which will receive the data
@@ -159,5 +170,3 @@ When using Git, "git mergetool" will start a 'merge helper
 
 ** Conclusion **: Conflict management on a daily basis and throughout the project is **highly* recommended**.
 Thus you can save time and avoid being overwhelmed by too much conflict at the end of the project.
-
-> Written with [StackEdit](https://stackedit.io/).
