@@ -171,3 +171,38 @@ https://chat.wildcodeschool.fr/file-upload/yZGkrZokLYNQurrWB/Capture%20d%E2%80%9
 
 ** Conclusion **: Conflict management on a daily basis and throughout the project is **highly* recommended**.
 Thus you can save time and avoid being overwhelmed by too much conflict at the end of the project.
+
+
+WILD CODE SCHOOL WEEK 2
+====
+BOOTSTRAP
+===
+Bootstrap is a Framework for design creation on websites. Bootstrap  notably allows to make a responsive design thinking mobile first.
+
+ It's a library which contains various tools based on grid system.
+It uses a series of containers, rows, and columns to layout and align content. It’s built with flexbox and is fully responsive.
+Bootstrap's grid function with a 12 columns system : we need to use bootstrap's classes to position elements on the page.
+
+The Bootstrap installation can be done in CDN and the library via a Javascript link on the HTML page as well as a link for the importer CSS related to Bootstrap. The installation can also be done by installing the files locally on his computer.
+
+Besides Bootstrap propose different elements to build  website pages : 
+
+* Layout
+* Components:
+Bootstrap contains differents components in the library (buttons, Navbar, list-group etc.). . . 
+We can take different éléments and merge them.
+
+* Content : images, tables, figures, etc.
+
+
+GRID SYSTEM
+---
+Using the grid system facilitates communication between different trades (web designers, developers, etc.) during the creation of a website. It allows you to create layouts by dividing the display space into usable regions to position multiple items.
+
+FLEXBOX
+---
+
+The principle of layout with Flexbox is simple: you define a container, and inside you place several elements that can be positioned uni directionally in this container.
+
+
+Stéphane - Marlène - Cloé
