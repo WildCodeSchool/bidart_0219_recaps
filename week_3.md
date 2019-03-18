@@ -153,14 +153,32 @@ The sentences for loops available in JavaScript are:
 		  } while (condition);
 
 
+- **SWITCH** : The switch statement compares the value of the expression with a case instance, and executes statements associated with that case, and the following cases. The break statement associated with each case label ensures that the program exits the switch once the matching instruction is executed.
+
+        	switch (expression) {
+		  case value1:
+		    //Statements executed when the
+		    //result of expression matches value1
+		    [break;]
+		  case value2:
+		    //Statements executed when the
+		    //result of expression matches value2
+		    [break;]
+		  ...
+		  case valueN:
+		    //Statements executed when the
+		    //result of expression matches valueN
+		    [break;]
+		  [default:
+		    //Statements executed when none of
+		    //the values match the value of the expression
+		    [break;]]
+		}
 ______________________________________________________
 
 ## A completer  par un autre crew (have fun!!)
 
 conditions - if then else
-
-loop
-	- switch/case
 
 
 objets (JSON)
