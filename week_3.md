@@ -62,6 +62,67 @@ A variable name must start with a lower case character or $ or _.
 
 ______________________________________________________
 
+## Crew : 
+Amine, Enzo, Jean-Maxime
+## What is a function ?
+
+Generally speaking, a function is a "subprogram" that can be called by code external (or internal in the case of recursion) to the function. Like the program itself, a function is composed of a sequence of statements called the function body. Values can be passed to a function, and the function will return a value.  
+      
+ In JavaScript, functions are first-class objects, because they can have properties and methods just like any other object. What distinguishes them from other objects is that functions can be called. In brief, they are Function objects.
+### Example
+
+*function  myFunction(p1, p2) {  
+return  p1 * p2; // The function returns the product of p1 and p2  
+}*
+
+ ### Function syntax
+
+A JavaScript function is defined with the  `function`  keyword, followed by a  **name**, followed by parentheses  **()**.
+
+Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).
+
+The parentheses may include parameter names separated by commas:  
+**(_parameter1, parameter2, ..._)**
+
+The code to be executed, by the function, is placed inside curly brackets:  **{}**  
+
+
+`*function  _name_(_parameter1, parameter2, parameter3_) {  
+//  _code to be executed_  
+}*`
+
+----------
+
+## Function Invocation
+
+The code inside the function will execute when "something"  **invokes**  (calls) the function:
+
+-   When an event occurs (when a user clicks a button)
+-   When it is invoked (called) from JavaScript code
+-   Automatically (self invoked)
+
+## Function Return
+
+When JavaScript reaches a  `return`  statement, the function will stop executing.
+
+If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.
+
+Functions often compute a  **return value**. The return value is "returned" back to the "caller":
+
+### Example
+
+Calculate the product of two numbers, and return the result:
+
+ const  x = myFunction(4,  3); // Function is called, return value will end up in x  
+  
+function  myFunction(a, b) {  
+return  a * b; // Function returns the product of a and b  
+}  
+
+The result in x will be:
+
+`12`
+______________________________________________________
 
 ## A completer  par un autre crew (have fun!!)
 
@@ -72,7 +133,6 @@ loops
 	- while / do While
 	- switch/case
 
-fonctions
 
 objets (JSON)
 {
