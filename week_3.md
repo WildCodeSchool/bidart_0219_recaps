@@ -60,7 +60,6 @@ A variable name must start with a lower case character or $ or _.
 		.shift() --> Remove the first item from the array
 
 
-
 ______________________________________________________
 
 
