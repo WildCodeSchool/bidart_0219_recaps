@@ -123,6 +123,10 @@ The result in x will be:
 
 `12`
 
+______________________________________________________
+
+## Crew : 
+Laura, Yann and Vanessa.
 
 # Loops:
 
@@ -148,7 +152,6 @@ The sentences for loops available in JavaScript are:
 			 statement;
 		  } while (condition);
 
-LOOPS FOR, WHILE AND DO..WHILE CREATED BY **VANESSA SALVADOR**.
 
 ______________________________________________________
 
