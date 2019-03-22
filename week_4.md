@@ -233,7 +233,29 @@ Node.js runs single-threaded, non-blocking, asynchronously programming, which is
 
 
 
+______________________________________________________________________________
 
+**Express**
+
+**Crew** : Amine and Enzo
+
+**1) What is Express.js?**
+
+Express.js  is a  Node.js  framework. It's the most popular framework as of now (the most starred on NPM).
+
+ **2) What is the purpose of it with Node.js?**
+
+That you don't have to repeat same code over and over again. Node.js is a low-level  mechanism which has an HTTP module. If you just use an HTTP module, a lot of work like parsing the payload, cookies, storing sessions (in memory or in  Redis), selecting the right route pattern based on regular expressions  will  **have**  to be re-implemented. With Express.js it's there for you to use.
+
+**3)Why do we actually need Express.js? How it is useful for us to use with Node.js?**
+
+The first answer should answer your question. If no, then try to write a small  REST  API server in plain Node.js (that is, using only core modules) and then in Express.js. The latter will take you 5-10x less time and lines of code.
+
+
+
+
+
+Express.js is **not** an model-view-controller framework by itself. You need to bring your own object-relational mapping libraries such as Mongoose for MongoDB, Sequelize (http://sequelizejs.com) for SQL databases, Waterline (https://github.com/balderdashy/waterline) for many databases into the stack.
 
 
 
