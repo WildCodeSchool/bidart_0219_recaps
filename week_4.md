@@ -61,6 +61,43 @@ EcmaScript is not any scripting language instead a standard that Javascript is b
 So, ES6 is a new version or new standard of Javascript.
 ES6 brings many new feature like concept of **classes**, **template tags**, **arrow functions** etc.
 
+### ES6 classes
+A class is a template that you can use to create objects.
+
+
+**Class declaration template**
+```Javascript
+class className = {
+ 
+ constructor (parm1, param2, ...) { // <-- the constructor method is called when a new object is created using "new"
+  // example:
+  this.variable1 = param1; // <-- init some variables with params
+  this.variable2 = param2;
+  method
+ }
+ 
+ // Declare several methods for this class 
+ method1 () {
+  // add some behaviour for method 1
+  // example:
+  return this.variable1 + this.variable2;
+ }
+ 
+  method1 () {
+  // add some behaviour for method 1
+  // example:
+  return this.variable1 + this.variable2;
+ }
+ 
+}
+```
+
+**Object creation**
+To create an object from a class template, use the key word "New".
+
+```Javascript
+Ex: const myCar = new Car;
+```
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
