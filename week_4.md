@@ -154,6 +154,33 @@ Ex: const myCar = new Car;
 ```
 
 
+
+### Arrow Functions //Jonathan
+An arrow function expression is a syntactically compact alternative to a regular function expression.
+
+ES 5 :
+```Javascript
+function myFunction(arg){
+ return arg;
+}
+```
+ES 6 :
+```Javascript
+const myFunction = arg => arg;
+```
+
+They can be declared or anonyme : 
+
+ES 6 anonymous arrow function : 
+```Javascript
+(arg) => arg
+```
+They are used for exemple in array.map or array.filter method.
+
+
+
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
 **NodeJS**
 
