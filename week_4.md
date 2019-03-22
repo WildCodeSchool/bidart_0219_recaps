@@ -5,7 +5,6 @@
 Sarah
 Sylène
 Marlène
-Chloé
 
 
 **Key words of the week**
