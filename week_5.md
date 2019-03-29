@@ -49,29 +49,34 @@ class Welcome extends React.Component {
   }
 }
 ```
---------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 // Sarah
 
 ## WHAT IS ReactDOM:
 
 It's a package that provides DOM specific methods that can be used at the top level of a web app to enable an efficient way of managing DOM elements of the web page. ReactDOM provides the developers with an API containing following methods and a few more.
 
+ReactDOM.render(element, container, callback)
+
+................................................................................................................
+// Sarah
+
 ## A Stateful Component:
 
-In addition to taking input data (accessed via this.props), a component can maintain internal state data (accessed via this.state). When a component’s state data changes, the rendered markup will be updated by re-invoking render().
+Conventions of Using State in React
 
-class Welcome extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-  
-  render() {
-    return (
-      <div>
-      </div>
-    );
-  }
-}
+State of a component should prevail throughout the lifetime, thus we must first have some initial state, to do so we should define the State in the constructor of the component’s class. To define a state of any Class we can use the sample format below.
 
+
+Class Welcome extends React.Component 
+{ 
+    constructor(props) 
+    { 
+        super(props); 
+        this.state = { attribute : "value" }; 
+    } 
+} 
+
+
+---------------------------------------------------------------------------------------------------------------------
 ### ...
