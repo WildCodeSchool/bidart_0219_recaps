@@ -8,8 +8,8 @@
 ReactJS is a javascript library for building user interfaces. It is maintened by Facebook and a community of individual developpers and companies
 It can be used as a base in the development of SPA (Single page Application).
 
+## Creating an App
 //Perrine
-Creating an App
 
 To create a new app, you have to do:
 
