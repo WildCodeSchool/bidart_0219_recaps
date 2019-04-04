@@ -1,0 +1,17 @@
+# Week 6: Beginning of Project 2 in a group
+
+## Git Worklow:
+
+Representation of a sequence of tasks or operations performed by a person, a group of persons, an organization, etc. The term flow refers to the passage of the product, document, information, etc., from one stage to another.
+The master and dev branches should not be changed because they represent the stable product, and protecting them avoids conflicts. For this a branch including the USER Stories must be drawn from dev.
+When the US is finished it is possible to make a pull request on dev which will allow the Product Owner to test the product.
+If the latter finds bugs he can note them in issues on github and the developer can find them.
+
+## Initiation to Scrum Method:
+
+### Discover the Agile method with the manifesto:
+
+-   Individuals and interactions over processes and tools
+-   Working software over comprehensive documentation
+-   Customer collaboration over contract negotiation
+-   Responding to change over following a plan
